@@ -16,12 +16,12 @@ body,pre{
 body,input,pre{
     font-family:"Noto Sans KR",sans-serif
 }
-.clouds {
+/* .clouds {
     position: absolute;
     width: 650px;
     top: 50px;
     animation: clouds-animation 20s infinite linear;
-}
+} */
 @keyframes clouds-animation {
     from {
         right: -450px;
