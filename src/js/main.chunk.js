@@ -264,7 +264,7 @@
                       , a = e.result;
                     return n || "" !== a ? "" !== a ? Object(F.jsxs)("div", {
                         className: M("message", a),
-                        children: ["success" === a && "DESARMADA!", "failure" === a && "TEMPO ESGOTADO"]
+                        children: ["success" === a && "DESARMADA!", "failure" === a && "TEMPO ESGOTADO"]               
                     }) : null : Object(F.jsx)("div", {
                         className: M("message"),
                         children: "Pressione ESPAÇO para começar",
@@ -310,7 +310,7 @@
         R.defaultProps = {
             patterns: "QWEASD",
             textLength: 8,
-            maxTime: 6e3,
+            maxTime: 5.3e3,
             onSuccess: function(t) {},
             onFailure: function() {}
         };
