@@ -6,6 +6,7 @@ function playSound(event){
     audio.currentTime = 0;
     audio.play();
     audio.pause();
+    audio.volume = 0.40;
     setTimeout(function() {
         audio.play();
     }, 100)
